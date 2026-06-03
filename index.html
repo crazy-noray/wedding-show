@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Wedding</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Hero -->
+  <header class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-date">Forever Begins</p>
+      <h1 class="hero-names">Our Wedding</h1>
+      <div class="hero-divider"></div>
+      <p class="hero-subtitle">A celebration of love</p>
+      <a href="#gallery" class="hero-btn">View Our Gallery</a>
+    </div>
+    <div class="scroll-indicator">
+      <span></span>
+    </div>
+  </header>
+
+  <!-- Gallery -->
+  <section id="gallery" class="gallery-section">
+    <div class="section-header">
+      <h2>Our Moments</h2>
+      <p>Every picture tells our story</p>
+    </div>
+    <div class="gallery-grid" id="galleryGrid">
+      <!-- Photos are loaded dynamically from the images/ folder via photos.js -->
+    </div>
+    <div class="empty-state" id="emptyState">
+      <div class="empty-icon">&#10084;</div>
+      <p>Photos coming soon&hellip;</p>
+      <small>Add your images to the <code>images/</code> folder and list them in <code>photos.js</code></small>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close">&times;</button>
+    <button class="lightbox-prev" id="lightboxPrev" aria-label="Previous">&#8249;</button>
+    <button class="lightbox-next" id="lightboxNext" aria-label="Next">&#8250;</button>
+    <div class="lightbox-content">
+      <img id="lightboxImg" src="" alt="" />
+      <p class="lightbox-caption" id="lightboxCaption"></p>
+    </div>
+    <div class="lightbox-counter" id="lightboxCounter"></div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-hearts">&#10084; &#10084; &#10084;</div>
+    <p>Made with love</p>
+  </footer>
+
+  <script src="photos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
