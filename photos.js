@@ -1,13 +1,16 @@
-// Add your wedding photos here.
-// Each entry: { src: "images/filename.jpg", caption: "Optional caption" }
-//
-// Example:
-// const PHOTOS = [
-//   { src: "images/ceremony-01.jpg", caption: "The ceremony" },
-//   { src: "images/kiss.jpg",        caption: "First kiss" },
-//   { src: "images/reception.jpg",   caption: "" },
-// ];
-
 const PHOTOS = [
-  // Add your photos here
+  { src: "images/wedding-01.jpg", caption: "" },
+  { src: "images/wedding-02.jpg", caption: "" },
+  { src: "images/wedding-03.jpg", caption: "" },
+  { src: "images/wedding-04.jpg", caption: "" },
+  { src: "images/wedding-05.jpg", caption: "" },
+  { src: "images/wedding-06.jpg", caption: "" },
+  { src: "images/wedding-07.jpg", caption: "" },
+  { src: "images/wedding-08.jpg", caption: "" },
+  { src: "images/wedding-09.jpg", caption: "" },
+  { src: "images/wedding-10.jpg", caption: "" },
+  { src: "images/wedding-11.jpg", caption: "" },
+  { src: "images/wedding-12.jpg", caption: "" },
+  { src: "images/wedding-13.jpg", caption: "" },
+  { src: "images/wedding-14.jpg", caption: "" },
 ];
